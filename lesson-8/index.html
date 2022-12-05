@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson-8</title>
+</head>
+<body>
+
+
+<div class="wrapper">
+    <form action="#" method="post" name="registration" id="registration">
+        <div class="form-group">
+            <input type="text"  name="name" Form="registration" placeholder="name" value="name" maxlength="7" minlength="3">
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="password">
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="email" required>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="email" required placeholder="+375(__)___ __ __">
+        </div>
+
+        <div class="form-group">
+            <label class="label-checkbox" for="checkbox-1">Click mi</label>
+            <input type="checkbox" id="checkbox-1" required name="dog">
+        </div>
+
+        <div class="form-group form-group--radio">
+            <label for="red">
+                red
+                <input type="radio" id="red" name="color" checked>
+            </label>
+            <label for="blue">
+                blue
+                <input type="radio" id="blue" name="color">
+            </label>
+            <label for="silver">
+                silver
+                <input type="radio" id="silver" name="color">
+            </label>
+        </div>
+        
+        <div class="form-group">
+            <input type="file">
+        </div>
+
+        <div class="form-group">
+            <input type="number">
+        </div>
+
+        <div class="form-group">
+            <input type="date">
+        </div>
+
+        <div class="form-group">
+            <input type="time">
+        </div>
+
+        <div class="form-group">
+            <input type="color">
+        </div>
+
+        <div class="form-group">
+            <input type="range" min="10" max="90" value="50">
+        </div>
+
+        <div class="form-group">
+            <textarea class="form-text" cols="50" rows="20" required>
+        </textarea>
+        </div>
+        
+        <div class="form-group">
+            <select name="colors" id="colors" multiple size="3">
+                <option value="red">red</option>
+                <option value="silver">silver</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="black">black</option>
+            </select>
+        </div>
+        
+
+        <div class="form-group">
+            <button type="submit">submit form</button>
+            <button type="reset"> reset</button>
+        </div>
+
+    </form>
+
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.wrapper{
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 100px auto 0;
+}
+
+.form-group{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+input{
+  background: coral;
+  color: white;
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+/*input[type="checkbox"]{
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.label-checkbox{
+  position: relative;
+}
+
+.label-checkbox:before{
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 1px solid silver;
+  right: -20px;
+}
+
+.label-checkbox:after{
+  position: absolute;
+  content: "";
+}*/
+
+.form-group--radio{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text{
+  resize: none;
+}
+
+select{
+  width: 200px;
+}
