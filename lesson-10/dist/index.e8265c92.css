@@ -1,0 +1,16 @@
+.list {
+  background: silver;
+}
+
+.list a {
+  color: coral;
+  font-size: 28px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*# sourceMappingURL=index.e8265c92.css.map */

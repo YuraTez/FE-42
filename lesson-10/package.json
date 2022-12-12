@@ -1,0 +1,18 @@
+{
+  "name": "lesson-10",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "pro": "parcel build src/index.html --no-source-maps --no-cache --public-url ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.1",
+    "parcel": "^2.8.1"
+  }
+}
