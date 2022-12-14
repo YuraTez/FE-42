@@ -1,49 +1,10 @@
+@import "cdn";
+@import "custom";
 @import "variables/variables";
+@import "mixins/cart";
 @import "section/header";
-
-
-.wrapper{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+@import "section/shop";
+@import "section/new";
 
 
 
-
-/*
-.list{
-  background: silver;
-  .list__item{
-    text-decoration: #ec7979;
-    a{
-      color: silver;
-      border: 1px solid red;
-    }
-    &:hover{
-      a{
-        color: black;
-      }
-    }
-
-    &:before{}
-  }
-}
-
-.list{
-  background: silver;
-  &__item{
-    text-decoration: #ec7979;
-    &-link{
-      color: silver;
-      border: 1px solid red;
-    }
-    &:hover{
-      a{
-        color: black;
-      }
-    }
-
-    &:before{}
-  }
-}*/

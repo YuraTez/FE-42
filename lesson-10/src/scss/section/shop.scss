@@ -1,0 +1,39 @@
+.shop-content{
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.shop-cart{
+  /*@extend %cart;
+  color: $white;*/
+  @include cart;
+  transition: .3s;
+  &:hover{
+    color: $black;
+    cursor: pointer;
+  }
+
+  &__title{
+    font-size: 34px;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  &__text{
+    font-size: 18px;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
+

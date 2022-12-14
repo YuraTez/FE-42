@@ -1,0 +1,25 @@
+@import "variables/variables";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+%cart{
+  height: 200px;
+  border: 1px solid silver;
+  background: $cart;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
